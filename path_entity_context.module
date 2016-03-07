@@ -1,0 +1,14 @@
+<?php
+/**
+ * @file
+ * Path Entity Context module.
+ */
+
+/**
+ * Implements hook_ctools_plugin_directory().
+ */
+function path_entity_context_ctools_plugin_directory($owner, $plugin_type) {
+  if ($plugin_type == 'contexts') {
+    return 'plugins/' . $plugin_type;
+  }
+}

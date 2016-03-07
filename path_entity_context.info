@@ -1,0 +1,4 @@
+name = Path Entity Context
+description = Provides CTools context that loads entity from given path component.
+core = 7.x
+package = Chaos tools suite
